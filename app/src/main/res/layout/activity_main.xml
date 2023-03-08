@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/mediumPadding"
+    app:circularflow_angles="8dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card"
+        android:orientation="horizontal"
+        android:padding="@dimen/normalPadding">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:src="@drawable/danial"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            app:shapeAppearanceOverlay="@style/roundImageView"
+            android:layout_marginEnd="@dimen/normalMargin"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/smallMargin"
+                android:fontFamily="@font/dm_sans_bold"
+                android:text="Ahmed hassan"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titleSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/smallMargin"
+                android:fontFamily="@font/dm_sans_medium"
+                android:text="Engineer"
+                android:textColor="@color/normal_text_color"
+                android:textSize="@dimen/normalText" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/smallMargin"
+                android:drawableLeft="@drawable/location_icon"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/dm_sans"
+                android:text="UK"
+                android:textColor="@color/text_color"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:fontFamily="@font/dm_sans"
+                    android:text="(150 Reviews)"
+                    android:textColor="@color/black"
+                    android:layout_marginEnd="@dimen/extraSmallMargin"
+                    android:textSize="@dimen/normalText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:drawableRight="@drawable/star_4"
+                    android:drawablePadding="@dimen/extraSmallMargin"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="4.5"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normalText" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="@dimen/smallMargin"
+                android:background="@drawable/rectangle_shape"
+                android:fontFamily="@font/dm_sans"
+                android:gravity="center"
+                android:text="3 hr"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/smallMargin"
+                android:fontFamily="@font/dm_sans_medium"
+                android:text="Russian"
+                android:textColor="@color/normal_text_color"
+                android:textSize="@dimen/normalText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dm_sans"
+                android:text="5 days ago"
+                android:textColor="@color/second_title_color"
+                android:textSize="@dimen/normalText" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

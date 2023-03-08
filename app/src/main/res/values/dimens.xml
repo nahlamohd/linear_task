@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleSize">16sp</dimen>
+    <dimen name="normalText">12sp</dimen>
+    <dimen name="largeRadius">32dp</dimen>
+    <dimen name="normalPadding">12dp</dimen>
+    <dimen name="normalMargin">12dp</dimen>
+    <dimen name="mediumPadding">16dp</dimen>
+    <dimen name="smallMargin">8dp</dimen>
+    <dimen name="extraSmallMargin">4dp</dimen>
+</resources>
